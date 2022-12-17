@@ -1,0 +1,159 @@
+body{
+    background-image: url("images/untilifound.jpeg");
+    background-size: cover;
+    overflow: hidden;
+}
+.container{
+    background-color: rgb(255, 255, 255);;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    position: relative;
+    top: 120px;
+    border: solid;
+    border-color: black;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+}
+img{
+    height: 390px;
+    width: 390px;
+    position: relative;
+    top: 5px;
+    border-radius: 3px;
+}
+.icons{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 70px;
+}
+.content{
+    height: 120px;
+    width: 380px;
+    background-color: white;
+    position: relative;
+    bottom: 125px;
+}
+.icons:hover{
+    cursor: pointer;
+}
+#previous{
+    position: relative;
+    right: 50px;
+}
+#next{
+    position: relative;
+    left: 50px;
+}
+#playb{
+    height: 35px;
+    width: 35px;
+}
+#playb:hover{
+    color: blueviolet;
+}
+#previous:hover{
+    height: 35px;
+    width: 35px;
+}
+#next:hover{
+    height: 35px;
+    width: 35px;
+}
+#previous:active{
+    height: 30px;
+    width: 30px;
+}
+#next:active{
+    height: 30px;
+    width: 30px;
+}
+#info{
+    position: relative;
+    top: 150px;
+}
+#info{
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    height: 40px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    opacity: 0.7;
+}
+#bar{
+    width: 250px;
+}
+.container2{
+    display: none;
+    height: 400px;
+    width: 290px;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    position: relative;
+    bottom: 405px;
+    left: 360px;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+button{
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 4px;
+    display: block;
+    height: 30px;
+    width: 288px;
+    font-style: normal;
+    font-weight: bold;
+    border-radius: 5px;
+    border-width: 1px;
+}
+button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(72, 183, 243);
+    height: 40px;
+}
+audio{
+    position: absolute;
+    bottom: 70px;
+    right: 20px;
+    width: 350px;
+}
+audio::-webkit-media-controls-play-button{
+    display: none;
+}
+audio::-webkit-media-controls-timeline{
+    position : relative;
+    right: 10px;
+    background-color: initial;
+}
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display{
+    position: relative;
+    right: 10px;
+}
+#menuicn{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: -365px;
+    left: 230px;
+    background-color: white;
+    z-index: 1;
+}
+.snghead{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(63, 63, 63);
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#menuicn:hover{
+    background-color: rgb(72, 183, 243);;
+}
